@@ -1,0 +1,126 @@
+.container {
+  width: 80%;
+}
+
+.container cards {
+  padding: 15px;
+}
+ul.indicators{
+  width:300%;
+
+}
+
+.center-align{
+  color: gray;
+  font-weight: lighter;
+}
+
+.slider img{
+  z-index: -10;
+}
+
+.slider {
+  z-index: 1;
+background-color: red;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+#element-with-background-image {
+   position: relative;
+   background-image: url("//example.com/image.jpg");
+}
+
+#color-overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: black;
+   opacity: 0.6;
+}
+
+
+.parallax-container {
+  height: 550px;
+}
+
+.waves-effect.waves-brown .waves-ripple {
+ /* The alpha value allows the text and background color
+ of the button to still show through. */
+  background-color: rgb(209, 116, 19);
+}
+
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url('Roboto-Bold.woff2') format('woff2'), url('Roboto-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Regular.woff2') format('woff2'), url('Roboto-Regular.woff') format('woff');
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.gLogo {
+  padding-top: 15px;
+  width: 300px;
+  height: auto;
+}
+
+/*.brand-logo {
+    text-size: inherit;
+    /*text-decoration-color: #f7901e;*/
+
+
+}
+*/ .button-collapse {
+  color: #fb8c00;
+}
+h1 {
+  font-family: 'Roboto-Bold';
+}
+.no-pad-bot {
+  padding-top: 75px;
+}
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255, 255, 255, .5);
+}
+.parallax-container .section {
+  width: 100%;
+}
+@media only screen and (max-width: 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+.material-icons {
+  font-size: inherit;
+}
+footer.page-footer {
+  margin: 0;
+}
+@media only screen and (max-width: 600px) {
+  .flinks {
+    text-align: left;
+  }
+}
