@@ -48,6 +48,42 @@
        return parseFloat(value.replace(/\$/, ""))
      }
 
+//checking for form errors
+$("#menuForm").on("submit",function(){
+let errors = ""
+$(".errors").html("")
+
+
+if(!$("#firstName").val()){
+errors += "Please Enter First Name <br>"
+}
+
+
+if(!$("#phone").val()){
+errors += "Please enter phone number <br>"
+}
+
+
+
+if(!$("#address").val()){
+errors += "Please enter address <br>"
+}
+
+
+
+if (errors){
+  $(".errors").html(errors)
+} else{
+  Materialize.toast('Your order has been submitted!', 3000)
+}
+
+
+
+
+})
+
+    //  // Materialize.toast(message, displayLength, className, completeCallback);
+    //  Materialize.toast('Your order has been submitted!', 3000) // 4000 is the duration of the toast
 
    });
 

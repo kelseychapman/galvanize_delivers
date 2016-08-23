@@ -1,3 +1,38 @@
+
+h1 {
+  font-family: 'Roboto-Bold';
+}
+.no-pad-bot {
+  padding-top: 75px;
+}
+
+@media only screen and (max-width: 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+.material-icons {
+  font-size: inherit;
+}
+footer.page-footer {
+  margin: 0;
+}
+@media only screen and (max-width: 600px) {
+  .flinks {
+    text-align: left;
+  }
+}
+
+
 .container {
   width: 80%;
 }
@@ -75,52 +110,5 @@ body {
   height: auto;
 }
 
-/*.brand-logo {
-    text-size: inherit;
-    /*text-decoration-color: #f7901e;*/
 
-
-}
-*/ .button-collapse {
-  color: #fb8c00;
-}
-h1 {
-  font-family: 'Roboto-Bold';
-}
-.no-pad-bot {
-  padding-top: 75px;
-}
-.parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255, 255, 255, .5);
-}
-.parallax-container .section {
-  width: 100%;
-}
-@media only screen and (max-width: 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
-}
-@media only screen and (max-width: 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-}
-.material-icons {
-  font-size: inherit;
-}
-footer.page-footer {
-  margin: 0;
-}
-@media only screen and (max-width: 600px) {
-  .flinks {
-    text-align: left;
-  }
 }
