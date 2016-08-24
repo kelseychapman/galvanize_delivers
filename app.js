@@ -49,35 +49,27 @@
      }
 
 //checking for form errors
-$("#menuForm").on("submit",function(){
+$("#menuForm").on("submit",function(event){
+  event.preventDefault();
 let errors = ""
-$(".errors").html("")
+// $(".errors").html("")
 
 
 if(!$("#firstName").val()){
 errors += "Please Enter First Name <br>"
 }
-
-
 if(!$("#phone").val()){
 errors += "Please enter phone number <br>"
 }
 
-
-
 if(!$("#address").val()){
 errors += "Please enter address <br>"
 }
-
-
-
 if (errors){
   $(".errors").html(errors)
 } else{
-  Materialize.toast('Your order has been submitted!', 3000)
+  Materialize.toast('Your order has been submitted!', 7000)
 }
-
-
 
 
 })
